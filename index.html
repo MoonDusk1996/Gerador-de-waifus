@@ -1,32 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/5f0af59db5.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
 
     <section class = "container">
         <div id ="nome">
-            <h1>Gerador de waifus NSWF</h1>
+            <h1>Gerador de hentai</h1>
         </div>
         <div id ="img">
             <h1 class="waifuname"></h1>
             <img src = "" id = "cover">
             <div>
                 <button id="btn" onclick="fetchWaifu()">
-                    <span>Gerar waifu</span> <span class="material-symbols-outlined">heart_plus</span>
+                    
+                    Gerar
+                    <i class="fa-solid fa-heart-circle-plus"></i>
                 </button>
             </div>
         </div>
         
 
-        
+        <form action="https://www.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="business" value="AFXJ6MKJHNPBL" />
+            <input type="hidden" name="no_recurring" value="0" />
+            <input type="hidden" name="item_name" value="Support us ♥" />
+            <input type="hidden" name="currency_code" value="BRL" />
+            <input type="image" src="https://pics.paypal.com/00/s/OTg4ZTE0YjItNTI5NS00OWEyLWJhYWUtN2QxMWIyNTlkYmIz/file.PNG" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+            <img alt="" border="0" src="https://www.paypal.com/en_BR/i/scr/pixel.gif" width="1" height="1" />
+            </form>
+            
     </section>
+    
     
     <script src="fetch.js"></script>
 </body>
