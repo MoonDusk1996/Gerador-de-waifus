@@ -5,6 +5,7 @@
     font-family: 'Crafty Girls', cursive;
     text-align: center;
     max-width: 100%;
+    font-size: large;
     
 }
 
@@ -20,18 +21,17 @@ body{
     "d";
     width: 100vw;
     height: 100vh;
-    gap: 10px;
+    gap: 5px;
     background-color: #202020;
     border-radius: 5px;
 
 }
 
 #nome h1{
-    margin-top: 50px;
+    margin-top: 25px;
     width: 95%;
     grid-area: n;
     color: #F285AD;
-    font-size: 30px;
     text-transform: uppercase;
 }
 #img{
@@ -45,12 +45,12 @@ body{
 
 
 #btn{
+    text-align: center;
     grid-area: d;
-    min-width: 10%;
+    min-width: 200px;
     height: 100px;
     border-radius: 35px;
     background-color: #F285AD;
     border-color: rgb(255, 255, 255);
-    font-size: 30px;
     text-transform: uppercase;
 }
