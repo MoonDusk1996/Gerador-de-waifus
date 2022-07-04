@@ -46,7 +46,7 @@ body{
 
 #btn{
     grid-area: d;
-    width: 75%;
+    min-width: 10%;
     height: 100px;
     border-radius: 35px;
     background-color: #F285AD;
