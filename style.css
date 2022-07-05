@@ -52,6 +52,7 @@ body{
 }
 
 .btn{
+    width: 150px;
     height: 45px;
     border-radius: 15px;
     background-color: #F285AD;
