@@ -16,7 +16,7 @@ body{
     grid-template-rows: 8vh 65vh 25vh;
     width: 100vw;
     height: 100vh;
-    gap: 5px;
+    gap: 10px;
     background-color: #202020;
     border-radius: 5px;
 }
