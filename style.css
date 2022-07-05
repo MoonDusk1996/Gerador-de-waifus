@@ -47,21 +47,34 @@ body{
 }
 
 
-#btn{
+.btn{
     grid-area: d;
     min-width: 150px;
     height: 75px;
     border-radius: 35px;
     background-color: #F285AD;
     border-color: rgb(255, 255, 255);
-    margin-top: 50px;
     font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: 10px;
     
 
 }
 form{
     width: 100px;
     position: absolute;
-    bottom: -20px;
-    left: 10px;
+    bottom: 0px;
+    left: 5px;
+}
+
+
+#btnparar{
+    display: none;
+}
+
+
+:disabled{
+    background-color: #8b8084;
+    border-color: rgb(255, 255, 255) ;
+    color: rgb(211, 211, 211);
 }

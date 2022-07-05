@@ -18,10 +18,26 @@
             <h1 class="waifuname"></h1>
             <img src = "" id = "cover">
             <div>
-                <button id="btn" onclick="fetchWaifu()">
-                    
+                <button class="btn" id="btngerar" onclick="fetchWaifu()">
+                    <i class="fa-solid fa-heart-circle-plus"></i>
                     Gerar
                     <i class="fa-solid fa-heart-circle-plus"></i>
+                </button>
+                <button class="btn" id="btnparar" onclick="parar()">
+                    <i class="fa-solid fa-timer"></i>
+                    parar
+                    <i class="fa-solid fa-timer"></i>
+                </button>
+                <p>ou a cada</p>
+                <button class="btn" id="contadordez" onclick="fetchdedez()">
+                    
+                    10 segundos
+                    
+                </button>
+                <button class="btn" id="contadortrinta" onclick="fetchdetrinta()">
+                    
+                    30 segundos
+                    
                 </button>
             </div>
         </div>
@@ -32,8 +48,7 @@
             <input type="hidden" name="no_recurring" value="0" />
             <input type="hidden" name="item_name" value="Support us ♥" />
             <input type="hidden" name="currency_code" value="BRL" />
-            <input type="image" src="https://pics.paypal.com/00/s/OTg4ZTE0YjItNTI5NS00OWEyLWJhYWUtN2QxMWIyNTlkYmIz/file.PNG" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-            <img alt="" border="0" src="https://www.paypal.com/en_BR/i/scr/pixel.gif" width="1" height="1" />
+            <input type="image" src="https://pics.paypal.com/00/s/OTg4ZTE0YjItNTI5NS00OWEyLWJhYWUtN2QxMWIyNTlkYmIz/file.PNG"  name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
             </form>
             
     </section>
