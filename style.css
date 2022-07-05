@@ -7,21 +7,13 @@
     max-width: 100%;
     font-size: large;
     text-transform: uppercase;
-    
-
-    
-    
 }
-
 body{
     background-color: #313131;
 }
 .container{  
     display: grid;
-    grid-template-areas: 
-    "n"
-    "i"
-    "d";
+    grid-template-rows: 5% 65% 23% 7%;
     width: 100vw;
     height: 100vh;
     gap: 5px;
@@ -29,52 +21,55 @@ body{
     border-radius: 5px;
 }
 
-#nome h1{
-    margin-top: 25px;
-    width: 100%;
-    grid-area: n;
+
+h1{
     color: #F285AD;
-    text-transform: uppercase;
-    font-size: larger;
-    letter-spacing: 3px;
 }
+
+
+
 #img{
-    grid-area: i;
+    height: 98%;
+    object-fit:cover;
 }
 #cover{
-    max-height: 500px;
-    border-radius: 10px;  
+    height: 98%;
+    object-fit:cover;
+
 }
 
 
+
+
+#botoes{
+    width: 100%;
+}
 .btn{
-    grid-area: d;
-    min-width: 150px;
-    height: 75px;
+    width: 150px;
+    height: 50px;
     border-radius: 35px;
     background-color: #F285AD;
     border-color: rgb(255, 255, 255);
     font-weight: bolder;
     margin-bottom: 10px;
     margin-top: 10px;
-    
-
 }
-form{
-    width: 100px;
-    position: absolute;
-    bottom: 0px;
-    left: 5px;
-}
-
-
 #btnparar{
     display: none;
 }
-
 
 :disabled{
     background-color: #8b8084;
     border-color: rgb(255, 255, 255) ;
     color: rgb(211, 211, 211);
+}
+
+
+
+#rodape{
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    grid-area: f;
 }

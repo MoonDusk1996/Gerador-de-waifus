@@ -11,12 +11,23 @@
 <body>
 
     <section class = "container">
-        <div id ="nome">
-            <h1>Gerador de hentai</h1>
-        </div>
-        <div id ="img">
-            <h1 class="waifuname"></h1>
-            <img src = "" id = "cover">
+
+        <section id = "title">
+            <div id ="nome">
+                <h1>Gerador de hentai</h1>
+            </div>
+        </section>
+
+
+        <section id ="imagem">
+            <div id ="img">
+                <h1 class="waifuname"></h1>
+                <img src = "" id = "cover">
+            </div>
+        </section>
+            
+
+        <section id = "botoes">
             <div>
                 <button class="btn" id="btngerar" onclick="fetchWaifu()">
                     <i class="fa-solid fa-heart-circle-plus"></i>
@@ -40,17 +51,19 @@
                     
                 </button>
             </div>
-        </div>
-        
+        </section>
 
-        <form action="https://www.paypal.com/donate" method="post" target="_top">
-            <input type="hidden" name="business" value="AFXJ6MKJHNPBL" />
-            <input type="hidden" name="no_recurring" value="0" />
-            <input type="hidden" name="item_name" value="Support us ♥" />
-            <input type="hidden" name="currency_code" value="BRL" />
-            <input type="image" src="https://pics.paypal.com/00/s/OTg4ZTE0YjItNTI5NS00OWEyLWJhYWUtN2QxMWIyNTlkYmIz/file.PNG"  name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+        
+        <section id ="rodape">
+            <form action="https://www.paypal.com/donate" method="post" target="_top">
+                <input type="hidden" name="business" value="AFXJ6MKJHNPBL" />
+                <input type="hidden" name="no_recurring" value="0" />
+                <input type="hidden" name="item_name" value="Support us ♥" />
+                <input type="hidden" name="currency_code" value="BRL" />
+                <input type="image" src="https://pics.paypal.com/00/s/OTg4ZTE0YjItNTI5NS00OWEyLWJhYWUtN2QxMWIyNTlkYmIz/file.PNG"  name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
             </form>
-            
+        </section>
+ 
     </section>
     
     
