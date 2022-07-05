@@ -34,6 +34,7 @@ body{
     object-fit:cover;
 }
 #cover{
+    border-radius: 15px;
     height: 96%;
     object-fit:cover;
 
@@ -49,9 +50,8 @@ body{
 }
 
 .btn{
-    width: 150px;
     height: 45px;
-    border-radius: 35px;
+    border-radius: 15px;
     background-color: #F285AD;
     border-color: rgb(255, 255, 255);
     font-weight: bolder;
