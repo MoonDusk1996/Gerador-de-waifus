@@ -22,7 +22,7 @@ body{
 }
 
 
-h1{
+#title{
     padding-top: 10px;
     color: #F285AD;
 }
@@ -30,11 +30,11 @@ h1{
 
 
 #img{
-    height: 98%;
+    height: 96%;
     object-fit:cover;
 }
 #cover{
-    height: 98%;
+    height: 96%;
     object-fit:cover;
 
 }
