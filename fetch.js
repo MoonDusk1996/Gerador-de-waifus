@@ -24,8 +24,7 @@ function fetchWaifu() {
 
             filedawaifu = waifu.file
             file.innerHTML = filedawaifu
-    
-            
+
             
         })
     }
